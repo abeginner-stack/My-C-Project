@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+int sisi;
+cout << "Masukkan Ukuran Sisi: ";
+cin >> sisi;
+int luas;
+luas = sisi * sisi;
+cout << "Luasnya adalah " << luas << endl; 
+}

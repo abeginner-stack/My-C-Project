@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int dog_age;
+  cout << "Masukkan Umur Anjing: ";
+  cin >> dog_age;
+  int early_years;
+  int later_years;
+  int human_years;
+  early_years = 21;
+  later_years = (dog_age - 2) * 4;
+  human_years = early_years + later_years;
+  cout << "Umur anjing anda dalam umur manusia adalah: " << human_years << endl;
+}
